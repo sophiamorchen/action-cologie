@@ -27,7 +27,7 @@ h1 {
     font-style:oblique;
 }
 .container {
-    border: 3px solid rgba(90, 74, 57, 0.281);
+    border: 0.25rem solid rgba(90, 74, 57, 0.281);
     border-radius: 10px;
 }
 
@@ -36,4 +36,8 @@ h1 {
 }
 footer {
     width: 100%;
+    position:absolute;
+    bottom: -1;
+    height: auto;
+    
 }
