@@ -1,0 +1,15 @@
+body {
+    background: url(../img/bg-img-ecolo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+}
+.logo {
+    width: 20%;
+}
+img {
+    width: 50%;
+}
+h1 {
+    color: white;
+}

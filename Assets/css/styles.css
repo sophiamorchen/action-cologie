@@ -1,0 +1,39 @@
+body {
+    background: url(../img/bg-img-ecolo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 20%;
+}
+
+.text-success {
+color: white;
+}
+.text-success:hover {
+    color: rgb(150, 255, 150);
+    background-color: seashell;
+}
+.image-hero {
+    width: 50%;
+}
+h1, h2, h3, h4, p {
+    color: white;
+}
+h1 {
+    color: rgb(10, 44, 10);
+    text-decoration: underline;
+    font-style:oblique;
+}
+.container {
+    border: 3px solid rgba(90, 74, 57, 0.281);
+    border-radius: 10px;
+}
+
+.photo-profil {
+    width: 25%;
+}
+footer {
+    width: 100%;
+}
