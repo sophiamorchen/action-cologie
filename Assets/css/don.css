@@ -21,6 +21,9 @@ img {
 section {
     flex: 1;
 }
+.link-display-none {
+    display: none;
+}
 /* .backdrop-test {
     backdrop-filter: blur(10px);
 } */
