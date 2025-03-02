@@ -1,15 +1,42 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background: url(../img/bg-img-ecolo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 100vh;
+    
+}
+body, main {
+    height: 100%;
 }
 .logo {
     width: 20%;
 }
 img {
-    width: 50%;
+    max-width: 40%;   
+}
+section {
+    flex: 1;
+}
+/* .backdrop-test {
+    backdrop-filter: blur(10px);
+} */
+.card {
+    background-color: transparent;
+
+    /* backdrop-filter: blur(10px); */
 }
 h1 {
     color: white;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ 
+    width: 100%;
 }

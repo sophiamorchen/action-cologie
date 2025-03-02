@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./Assets/css/don.css">
     <title>Mon premiser site Bootstrap</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <!-- Start : stylisation du Header -->
     <header class="p-2 d-flex mx-3 flex-wrap align-items-center justify-content-center rounded justify-content-md-between py-3 mb-4 border-bottom bg-body-secondary">
@@ -42,58 +42,31 @@
  <!-- penser à mettre un autre fond que le blnac sur les cards -->
     <section>
         <h1 class="text-center">Faire un Don</h1> <!--changer le titre / sa mise en forme-->
-        <div class="container p-1 mb-4 rounded d-flex">
-            <div class="container">
-                <div class="row d-flex ">
-                <div class="d-flex col-md-4">
-                    <div class="card shadow-sm d-flex flex-column justify-content-center align-items-center"> <!-- j'essaye de mettre les bord arrondis a ma photo ou à une des div-->
+        <div class="container  backdrop-test d-flex justify-content-center align-items-center">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="card shadow-sm d-flex justify-content-center align-items-center mb-md-4"> <!-- j'essaye de mettre les bord arrondis a ma photo ou à une des div-->
                         <img src="./Assets/img/physalis-nature.jpg" class="py-2 rounded" alt="">  <!-- j'essaye de mettre les bord arrondis a ma photo ou à une des div-->
                         <div class="card-body">
-                        <p class="card-text text-center">Faites un don de 5 euros</p>
+                        <p class="card-text text-center">Faites un don</p>
                         <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group d-flex justify-content-center align-items-center">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Mensuel</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Ponctuel</button>
+                        <div class="btn-group d-flex justify-content-center align-items-center flex-wrap gap-2 ">
+                            <button type="button" class="btn btn-sm btn-outline-secondary bg-dark-subtle"> 5 euros</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary bg-dark-subtle">10 euros</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary bg-dark-subtle">15 euros</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary bg-dark-subtle">20 euros</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary bg-dark-subtle">30 euros</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary bg-dark-subtle">40 euros</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary bg-dark-subtle">choisir un motant</button>
                         </div>
                         </div>
                         </div>
-                    </div>
-                    </div>                   
-                    <div class="d-flex col-md-4">
-                        <div class="card shadow-sm d-flex flex-column justify-content-center align-items-center">
-                            <img src="./Assets/img/physalis-nature.jpg" class="py-2 rounded" alt="">
-                            <div class="card-body">
-                                <p class="card-text text-center">Faites un don de 10 euros</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group d-flex justify-content-center align-items-center">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Mensuel</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Ponctuel</button>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex col-md-4">
-                        <div class="card shadow-sm d-flex flex-column justify-content-center align-items-center">
-                            <img src="./Assets/img/physalis-nature.jpg" class="py-2 rounded" alt="">                   
-                            <div class="card-body">
-                                <p class="card-text">Choisissez un motant</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group d-flex justify-content-center align-items-center">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Mensuel</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ponctuel</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>  
+                    </div>            
+                </div>  
         </div>
     </section>
 <!-- Stylisation Footer -->
 
-    <footer class="d-flex bg-body-secondary rounded mx-4 p-4">
+    <footer class="d-flex bg-body-secondary rounded p-4">
         <div class="col-md-4 d-flex align-items-center justify-content-center">
             <p class=" mb-0 text-body-secondary text-center">© 2024 Company, Inc</p>
         </div>
